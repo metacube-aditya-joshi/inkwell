@@ -1,0 +1,10 @@
+import express from "express";
+import { apiKeyLogin, loginUser, logoutUser, registerUser } from "../controllers/auth.controller";
+import { profile } from "console";
+const authRouter = express.Router();
+authRouter.post("/register", registerUser);
+authRouter.post("/login", loginUser);
+authRouter.post("/api_key", apiKeyLogin);
+authRouter.post("/logout", logoutUser);
+authRouter.get("/me", profile);
+export default authRouter;
