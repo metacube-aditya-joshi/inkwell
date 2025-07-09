@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173", // your Vite frontend
+    origin: "http://localhost:5173",  // your Vite frontend
     credentials: true,               // allow cookies/auth headers if needed
   })
 );

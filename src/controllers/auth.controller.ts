@@ -14,11 +14,12 @@ export const COOKIE_EXPIRY = 1000 * 60 * 60 * 24 * 7;
 export const registerUser = async (req: Request, res: Response) => {
   const validation = validator(userRegisterSchema, req.body);
   if (validation.error) {
+    console.log("Validation Failed")
     return res.status(400).json({ error: validation.error, success: false });
   }
 
-  const { name, password, confirmPassword, email } = req.body;
-  console.log(`name :${name} password : ${password} email : ${email}`);
+  const { username, password, confirmPassword, email } = req.body;
+  console.log(`name :${username} password : ${password} email : ${email}`);
 
   if (password !== confirmPassword) {
     return res.status(400).json({
@@ -48,7 +49,7 @@ export const registerUser = async (req: Request, res: Response) => {
     };
     const newUser = await db.user.create({
       data: {
-        username: name,
+        username: username,
         email,
         password: hashedPassword,
         role: Role.USER,

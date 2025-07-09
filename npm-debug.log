@@ -10,7 +10,7 @@
 6 silly lifecycle inkwell@1.0.0~predev: no script for predev, continuing
 7 info lifecycle inkwell@1.0.0~dev: inkwell@1.0.0
 8 verbose lifecycle inkwell@1.0.0~dev: unsafe-perm in lifecycle true
-9 verbose lifecycle inkwell@1.0.0~dev: PATH: /home/aditya/.nvm/versions/node/v6.9.5/lib/node_modules/npm/bin/node-gyp-bin:/home/aditya/Desktop/inkwell/node_modules/.bin:/home/aditya/.nvm/versions/node/v6.9.5/bin:/bin:/usr/lib/Seqrite/ClientAgent/cmd:/bin:/usr/lib/Seqrite/ClientAgent/cmd:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/bin/java:/snap/bin
+9 verbose lifecycle inkwell@1.0.0~dev: PATH: /home/aditya/.nvm/versions/node/v6.9.5/lib/node_modules/npm/bin/node-gyp-bin:/home/aditya/Desktop/inkwell/node_modules/.bin:/home/aditya/.nvm/versions/node/v6.9.5/bin:/bin:/usr/lib/Seqrite/ClientAgent/cmd:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/bin/java:/snap/bin
 10 verbose lifecycle inkwell@1.0.0~dev: CWD: /home/aditya/Desktop/inkwell
 11 silly lifecycle inkwell@1.0.0~dev: Args: [ '-c', 'tsx watch src/index.ts' ]
 12 silly lifecycle inkwell@1.0.0~dev: Returned: code: 1  signal: null
